@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily":"Segoe UI"
+    "editor.fontFamily":"Segoe UI",
+    "workbench.colorTheme": "Ayu Mirage"
 }
