@@ -1,8 +1,20 @@
-# ISSAC '97 Challenge Problem (Translated in Japanese)
+# ISSAC '97 Challenge Problem (Translated into Japanese)
 
 ## 問1：
-256次のヒルベルト行列の2ノルムの条件数を、有効数字4桁で求めよ。
-  
+256次のヒルベルト行列の2ノルムの条件数を、有効数字4桁で求めよ。  
+【補足】  
+n次のヒルベルト行列は
+$$
+h_{ij} = \frac{1}{i+j-1}（1 \leqq i \leqq n, 1 \leqq j \leqq n）
+$$
+で表される要素を持つ。  
+また、非特異行列$A$の条件数は
+$$
+\mathrm{Norm}_{2}(A) \, \mathrm{Norm}_{2}(A^{-1})
+$$
+で定義される。
+ここで、$\mathrm{Norm}_{2}$
+
 ## 問2：
 $$
 P = \int_{1}^{6} x^{x^x} dx
@@ -34,7 +46,7 @@ $$
 を満足する多項式である。
 
 ## 問6：
-以下の4つの多項式から成る多項式の集合について、そのグレブナー基底を計算せよ。
+以下の4つの多項式から成る多項式の集合について、辞書式順序のグレブナー基底を計算せよ。
 $$
 8w^2 + 5wz - 4wy + 2wz + 3w + 5x^2 + 2xy - 7xz - 7x + 7y^2 - 8yz - 7y + 7z^2 - 8z + 8 \, ;\\
 3w^2 - 5wx - 3wy - 6wz + 9w + 4x^2 + 2xy - 2xz + 7x + 9y^2 + 6yz + 5y + 7z^2 + 7z + 5 \, ;\\
@@ -44,10 +56,10 @@ $$
 
 ## 問7：
 $$
-\int_{0}^{1} x^2 \, Li_{3}(\frac{1}{x+1}) \, dx
+\int_{0}^{1} x^2 \, Li_{3} \left( \frac{1}{x+1} \right) \, dx
 $$
 を求めよ。
-なお、$Li_{n}(z)$は、以下の式で定義される多重対数関数である。
+なお、$Li_{n}(z)$は多重対数関数であり、以下の式で定義される。
 $$
 Li_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
 $$
@@ -62,7 +74,7 @@ f(x) &=  \tan(\tanh(\sin(x))) + \tanh(\sin(\tan(x))) + \sin(\tan(\tanh(x))) − 
 $$
 $$
 \begin{aligned}
-g(x) &= \sinh(\tanh(\sin(x))) + \tanh(\sin(\sinh(x))) +\ sin(\sinh(\tanh(x))) − \sinh(\sin(\tanh(x))) \\
+g(x) &= \sinh(\tanh(\sin(x))) + \tanh(\sin(\sinh(x))) +\sin(\sinh(\tanh(x))) − \sinh(\sin(\tanh(x))) \\
 &− \sin(\tanh(\sinh(x))) − \tanh(\sinh(\sin(x))) − \tan(\sinh(\sin(x))) − \sinh(\sin(\tan(x))) \\
 &− \sin(\tan(\sinh(x))) + \tan(\sin(\sinh(x))) + \sin(\sinh(\tan(x))) + \sinh(\tan(\sin(x)))
 \end{aligned}
@@ -83,7 +95,7 @@ $$
 ## 問10：
 以下の初期値問題を考える。
 $$
-\frac{d^2y}{dx^2} = x^3+y^3+(\frac{dy}{dx})^3, \, y(0)=0, \, y'(0)=0
+\frac{d^2y}{dx^2} = x^3+y^3+ \left( \frac{dy}{dx} \right)^3, \, y(0)=0, \, y'(0)=0
 $$
 この初期値問題が$x=r$に特異点を持つような、最小の実数$r$の最小値を求めよ。  
 また、$y(r)$が発散するか特定の値をとるか答えよ。  
