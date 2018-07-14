@@ -1,19 +1,20 @@
 # ISSAC '97 Challenge Problem (Translated into Japanese)
 
 ## 問1：
-256次のヒルベルト行列の2ノルムの条件数を、有効数字4桁で求めよ。  
-【補足】  
-n次のヒルベルト行列は
+256次のヒルベルト行列の2-ノルムによる条件数を、有効数字4桁で求めよ。  
+【補足】$n$次のヒルベルト行列の要素$(i,j)$は
 $$
-h_{ij} = \frac{1}{i+j-1}（1 \leqq i \leqq n, 1 \leqq j \leqq n）
+h_{ij} = \frac{1}{i+j-1} \ \ (1 \leqq i \leqq n, 1 \leqq j \leqq n)
 $$
-で表される要素を持つ。  
+で表される。  
 また、非特異行列$A$の条件数は
 $$
-\mathrm{Norm}_{2}(A) \, \mathrm{Norm}_{2}(A^{-1})
+\operatorname{Norm}_{2}(A)
+\operatorname{Norm}_{2}(A^{-1})\\
+\|A\| \cdot \|A^{-1}\| 
 $$
 で定義される。
-ここで、$\mathrm{Norm}_{2}$
+ここで、$\| \ \|$
 
 ## 問2：
 $$
@@ -36,16 +37,16 @@ $$
 
 ## 問5：  
 1000次のラゲール多項式の最大の零点を、有効数字12桁で求めよ。  
-ここでラゲール多項式とは、
+【補足】ラゲール多項式とは、
 $$
 \begin{aligned}
 & L_{0}(x) = 1, \, L_{1}(x) = -x+1 \\
-& L_{n}(x) = \frac{2n-1-x}{n} L_{n-1}(x) - \frac{n-1}{n} L_{n-2}(x) （n>1）
+& L_{n}(x) = \frac{2n-1-x}{n} L_{n-1}(x) - \frac{n-1}{n} L_{n-2}(x) \ \ (n>1)
 \end{aligned}
 $$
 を満足する多項式である。
 
-## 問6：
+## 問6：（未解答）
 以下の4つの多項式から成る多項式の集合について、辞書式順序のグレブナー基底を計算せよ。
 $$
 8w^2 + 5wz - 4wy + 2wz + 3w + 5x^2 + 2xy - 7xz - 7x + 7y^2 - 8yz - 7y + 7z^2 - 8z + 8 \, ;\\
@@ -56,12 +57,12 @@ $$
 
 ## 問7：
 $$
-\int_{0}^{1} x^2 \, Li_{3} \left( \frac{1}{x+1} \right) \, dx
+\int_{0}^{1} x^2 \, \operatorname{Li}_{3} \left( \frac{1}{x+1} \right) \, dx
 $$
 を求めよ。
-なお、$Li_{n}(z)$は多重対数関数であり、以下の式で定義される。
+なお、$\operatorname{Li_{n}(z)}$は多重対数関数であり、以下の式で定義される。
 $$
-Li_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
+\operatorname{Li}_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
 $$
 
 ## 問8：
