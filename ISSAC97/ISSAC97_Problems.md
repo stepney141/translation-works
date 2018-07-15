@@ -15,6 +15,10 @@ $$
 $$
 で定義される。
 ここで、$\| \ \|$
+$$
+\operatorname{Norm}_{2}(A) = \frac{\operatorname{norm}_{2}(Ax)}{\operatorname{norm}_{2}(x)}
+$$
+$x \in R^n$
 
 ## 問2：
 $$
@@ -60,7 +64,7 @@ $$
 \int_{0}^{1} x^2 \, \operatorname{Li}_{3} \left( \frac{1}{x+1} \right) \, dx
 $$
 を求めよ。
-なお、$\operatorname{Li_{n}(z)}$は多重対数関数であり、以下の式で定義される。
+なお、$\operatorname{Li}_{n}(z)$は多重対数関数であり、以下の式で定義される。
 $$
 \operatorname{Li}_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
 $$
