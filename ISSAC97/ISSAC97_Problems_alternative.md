@@ -2,6 +2,23 @@
 
 ## 問1：
 256次のヒルベルト行列の2-ノルムによる条件数を、有効数字4桁で求めよ。  
+【補足】$n$次のヒルベルト行列の要素$(i,j)$は
+$$
+h_{ij} = \frac{1}{i+j-1} \ \ (1 \leqq i \leqq n, 1 \leqq j \leqq n)
+$$
+で表される。  
+また、非特異行列$A$の条件数は
+$$
+\operatorname{Norm}_{2}(A)
+\operatorname{Norm}_{2}(A^{-1})\\
+\|A\| \cdot \|A^{-1}\| 
+$$
+で定義される。
+ここで、$\| \ \|$
+$$
+\operatorname{Norm}_{2}(A) = \frac{\operatorname{norm}_{2}(Ax)}{\operatorname{norm}_{2}(x)}
+$$
+$x \in R^n$
 
 ## 問2：
 $$
