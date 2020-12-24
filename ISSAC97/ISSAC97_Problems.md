@@ -1,5 +1,7 @@
 # ISSAC '97 Challenge Problem
 
+出典：Fee, Gregory J., and Michael B. Monagan. "Problems, puzzles, challenges." ACM SIGSAM Bulletin 31.4 (1997): 48-49.
+
 ## Problem 1:
 256次のヒルベルト行列の2-ノルムによる条件数を、有効数字4桁で求めよ。  
 
@@ -97,6 +99,6 @@ g(x) &= \sinh(\tanh(\sin(x))) + \tanh(\sin(\sinh(x))) +\sin(\sinh(\tanh(x))) - \
 \frac{d^2y}{dx^2} = x^3+y^3+ \left( \frac{dy}{dx} \right)^3, \, y(0)=0, \, y'(0)=0
 \end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Cfrac%7Bd%5E2y%7D%7Bdx%5E2%7D+%3D+x%5E3%2By%5E3%2B+%5Cleft%28+%5Cfrac%7Bdy%7D%7Bdx%7D+%5Cright%29%5E3%2C+%5C%2C+y%280%29%3D0%2C+%5C%2C+y%27%280%29%3D0%0A%5Cend%7Balign%2A%7D)
 
-この初期値問題が![x=r](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+x%3Dr)に特異点を持つような、最小の実数$r$の最小値を求めよ。  
+この初期値問題が![x=r](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+x%3Dr)に特異点を持つような、最小の実数![r](https://render.githubusercontent.com/render/math?math=%5Ctextstyle+r)の最小値を求めよ。  
 また、![y(r)](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+y%28r%29)が発散するか特定の値をとるか答えよ。  
 特定の値をとる場合、その値を有効数字13桁で求めよ。
