@@ -4,6 +4,8 @@
 - G. J. Fee and M. B. Managan. 1997. Problems, puzzles, challenges. SIGSAM Bull. 31, 1 (March 1997), 22–23. DOI:https://doi.org/10.1145/251586.251590
 - G. J. Fee and M. B. Monagan. 1997. Problems, puzzles, challenges. SIGSAM Bull. 31, 4 (Dec. 1997), 48–49. DOI:https://doi.org/10.1145/274888.274891
 
+下記の邦訳はおそらくどこか間違ってるので、可能ならば上に挙げた元文献を当たることをオススメします。
+
 ## Problem 1:
 256次のヒルベルト行列の2-ノルムによる条件数を、有効数字4桁で求めよ。  
 
