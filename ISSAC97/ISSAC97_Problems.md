@@ -21,14 +21,12 @@ P = \int_{1}^{6} x^{x^x} dx
 ![\begin{align*}
 (x+1)^{2000} (x^2 + x + 1)^{1000} (x^4+x^3+x^2+x+1)^{500}
 \end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%28x%2B1%29%5E%7B2000%7D+%28x%5E2+%2B+x+%2B+1%29%5E%7B1000%7D+%28x%5E4%2Bx%5E3%2Bx%5E2%2Bx%2B1%29%5E%7B500%7D%0A%5Cend%7Balign%2A%7D)  
-を展開して得られる多項式について、  
-![\begin{align*}
-x^{3000}
-\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0Ax%5E%7B3000%7D%0A%5Cend%7Balign%2A%7D)
-の係数を有効数字13桁で求めよ。
+
+を展開して得られる多項式について、![x^{3000}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+x%5E%7B3000%7D)の係数を有効数字13桁で求めよ。
 
 ## Problem 5:  
-1000次のラゲール多項式の最大の零点を、有効数字12桁で求めよ。  
+1000次のラゲール多項式の最大の零点を、有効数字12桁で求めよ。
+
 【補足】ラゲール多項式とは、
 
 ![\begin{align*}
@@ -56,50 +54,49 @@ x^{3000}
 
 を求めよ。
 
-なお、![\begin{align*}
-
-\rm{Li}_{n}(z)
-\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0A%5Crm%7BLi%7D_%7Bn%7D%28z%29%0A%5Cend%7Balign%2A%7D)  
-
-は多重対数関数であり、以下の式で定義される。
+なお![\rm{Li}_{n}(z)](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+%5Crm%7BLi%7D_%7Bn%7D%28z%29)は多重対数関数であり、以下の式で定義される。
 
 ![\begin{align*}
-{Li}_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
-\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%7BLi%7D_%7Bn%7D%28z%29+%3D+%5Csum_%7Bk%3D1%7D%5E%7B%5Cinfty%7D+%5C%2C+%5Cfrac%7Bz%5Ek%7D%7Bk%5En%7D%0A%5Cend%7Balign%2A%7D)
+\rm{Li}_{n}(z) = \sum_{k=1}^{\infty} \, \frac{z^k}{k^n}
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Crm%7BLi%7D_%7Bn%7D%28z%29+%3D+%5Csum_%7Bk%3D1%7D%5E%7B%5Cinfty%7D+%5C%2C+%5Cfrac%7Bz%5Ek%7D%7Bk%5En%7D%0A%5Cend%7Balign%2A%7D)
 
 ## Problem 8:
-$$
-\begin{aligned}
-f(x) &=  \tan(\tanh(\sin(x))) + \tanh(\sin(\tan(x))) + \sin(\tan(\tanh(x))) − \tan(\sin(\tanh(x))) \\
-&− \sin(\tanh(\tan(x))) − \tanh(\tan(\sin(x))) − \tan(\sinh(\tanh(x))) − \sinh(\tanh(\tan(x))) \\
-&− \tanh(\tan(\sinh(x))) + \tan(\tanh(\sinh(x))) + \tanh(\sinh(\tan(x))) + \sinh(\tan(\tanh(x)))
-\end{aligned}
-$$
-$$
-\begin{aligned}
-g(x) &= \sinh(\tanh(\sin(x))) + \tanh(\sin(\sinh(x))) +\sin(\sinh(\tanh(x))) − \sinh(\sin(\tanh(x))) \\
-&− \sin(\tanh(\sinh(x))) − \tanh(\sinh(\sin(x))) − \tan(\sinh(\sin(x))) − \sinh(\sin(\tan(x))) \\
-&− \sin(\tan(\sinh(x))) + \tan(\sin(\sinh(x))) + \sin(\sinh(\tan(x))) + \sinh(\tan(\sin(x)))
-\end{aligned}
-$$
-以上のように$f(x), \, g(x)$をおくとき、
-$$
+![\begin{align*}
+f(x) &=  \tan(\tanh(\sin(x))) + \tanh(\sin(\tan(x))) + \sin(\tan(\tanh(x))) - \tan(\sin(\tanh(x))) \\
+&- \sin(\tanh(\tan(x))) - \tanh(\tan(\sin(x))) - \tan(\sinh(\tanh(x))) - \sinh(\tanh(\tan(x))) \\
+&- \tanh(\tan(\sinh(x))) + \tan(\tanh(\sinh(x))) + \tanh(\sinh(\tan(x))) + \sinh(\tan(\tanh(x)))
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Af%28x%29+%26%3D++%5Ctan%28%5Ctanh%28%5Csin%28x%29%29%29+%2B+%5Ctanh%28%5Csin%28%5Ctan%28x%29%29%29+%2B+%5Csin%28%5Ctan%28%5Ctanh%28x%29%29%29+-+%5Ctan%28%5Csin%28%5Ctanh%28x%29%29%29+%5C%5C%0A%26-+%5Csin%28%5Ctanh%28%5Ctan%28x%29%29%29+-+%5Ctanh%28%5Ctan%28%5Csin%28x%29%29%29+-+%5Ctan%28%5Csinh%28%5Ctanh%28x%29%29%29+-+%5Csinh%28%5Ctanh%28%5Ctan%28x%29%29%29+%5C%5C%0A%26-+%5Ctanh%28%5Ctan%28%5Csinh%28x%29%29%29+%2B+%5Ctan%28%5Ctanh%28%5Csinh%28x%29%29%29+%2B+%5Ctanh%28%5Csinh%28%5Ctan%28x%29%29%29+%2B+%5Csinh%28%5Ctan%28%5Ctanh%28x%29%29%29%0A%5Cend%7Balign%2A%7D)
+
+![\begin{align*}
+g(x) &= \sinh(\tanh(\sin(x))) + \tanh(\sin(\sinh(x))) +\sin(\sinh(\tanh(x))) - \sinh(\sin(\tanh(x))) \\
+&- \sin(\tanh(\sinh(x))) - \tanh(\sinh(\sin(x))) - \tan(\sinh(\sin(x))) - \sinh(\sin(\tan(x))) \\
+&- \sin(\tan(\sinh(x))) + \tan(\sin(\sinh(x))) + \sin(\sinh(\tan(x))) + \sinh(\tan(\sin(x)))
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ag%28x%29+%26%3D+%5Csinh%28%5Ctanh%28%5Csin%28x%29%29%29+%2B+%5Ctanh%28%5Csin%28%5Csinh%28x%29%29%29+%2B%5Csin%28%5Csinh%28%5Ctanh%28x%29%29%29+-+%5Csinh%28%5Csin%28%5Ctanh%28x%29%29%29+%5C%5C%0A%26-+%5Csin%28%5Ctanh%28%5Csinh%28x%29%29%29+-+%5Ctanh%28%5Csinh%28%5Csin%28x%29%29%29+-+%5Ctan%28%5Csinh%28%5Csin%28x%29%29%29+-+%5Csinh%28%5Csin%28%5Ctan%28x%29%29%29+%5C%5C%0A%26-+%5Csin%28%5Ctan%28%5Csinh%28x%29%29%29+%2B+%5Ctan%28%5Csin%28%5Csinh%28x%29%29%29+%2B+%5Csin%28%5Csinh%28%5Ctan%28x%29%29%29+%2B+%5Csinh%28%5Ctan%28%5Csin%28x%29%29%29%0A%5Cend%7Balign%2A%7D)
+
+以上のように![f(x), \, g(x)](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+f%28x%29%2C+%5C%2C+g%28x%29)をおくとき、
+
+![\begin{align*}
 \lim_{x \to 0} \frac{f(g(x))}{g(f(x))}
-$$
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Clim_%7Bx+%5Cto+0%7D+%5Cfrac%7Bf%28g%28x%29%29%7D%7Bg%28f%28x%29%29%7D%0A%5Cend%7Balign%2A%7D)
+
 の値を有効数字9桁で求めよ。
 
 ## Problem 9:
 次の積分方程式
-$$
+
+![\begin{align*}
 \int_{0}^{1} \, \exp(x+y+x^2+xy+y^2+x^2 y^2) \, \lambda f(y) \, dy = \lambda f(x)
-$$
-を満たす最大の固有値$\lambda$を、有効数字13桁で求めよ。
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Cint_%7B0%7D%5E%7B1%7D+%5C%2C+%5Cexp%28x%2By%2Bx%5E2%2Bxy%2By%5E2%2Bx%5E2+y%5E2%29+%5C%2C+%5Clambda+f%28y%29+%5C%2C+dy+%3D+%5Clambda+f%28x%29%0A%5Cend%7Balign%2A%7D)
+
+を満たす最大の固有値![\lambda](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+%5Clambda)を、有効数字13桁で求めよ。
 
 ## Problem 10:
 以下の初期値問題を考える。
-$$
+
+![\begin{align*}
 \frac{d^2y}{dx^2} = x^3+y^3+ \left( \frac{dy}{dx} \right)^3, \, y(0)=0, \, y'(0)=0
-$$
-この初期値問題が$x=r$に特異点を持つような、最小の実数$r$の最小値を求めよ。  
-また、$y(r)$が発散するか特定の値をとるか答えよ。  
+\end{align*}](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Cfrac%7Bd%5E2y%7D%7Bdx%5E2%7D+%3D+x%5E3%2By%5E3%2B+%5Cleft%28+%5Cfrac%7Bdy%7D%7Bdx%7D+%5Cright%29%5E3%2C+%5C%2C+y%280%29%3D0%2C+%5C%2C+y%27%280%29%3D0%0A%5Cend%7Balign%2A%7D)
+
+この初期値問題が![x=r](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+x%3Dr)に特異点を持つような、最小の実数$r$の最小値を求めよ。  
+また、![y(r)](https://render.githubusercontent.com/render/math?math=%5Clarge+%5Ctextstyle+y%28r%29)が発散するか特定の値をとるか答えよ。  
 特定の値をとる場合、その値を有効数字13桁で求めよ。
